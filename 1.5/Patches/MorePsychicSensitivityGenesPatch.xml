@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/GeneDef[defName="PsychicAbility_Deaf"]/forcedTraits</xpath>
+        <value>
+            <statOffsets>
+              <PsychicSensitivity>-1.0</PsychicSensitivity>
+              <MeditationFocusGain>-0.1</MeditationFocusGain>
+              <PsychicEntropyRecoveryRate>-0.1</PsychicEntropyRecoveryRate>
+            </statOffsets>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/GeneDef[defName="PsychicAbility_Dull"]/forcedTraits</xpath>
+        <value>
+            <statOffsets>
+              <PsychicSensitivity>-.5</PsychicSensitivity>
+              <MeditationFocusGain>-0.05</MeditationFocusGain>
+              <PsychicEntropyRecoveryRate>-0.05</PsychicEntropyRecoveryRate>
+            </statOffsets>
+        </value>
+    </Operation>
+</Patch>
